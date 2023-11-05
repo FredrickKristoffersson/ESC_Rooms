@@ -1,0 +1,339 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 23, 38);
+    color: white;
+    margin: 0;
+    padding: 5px 0px 20px 5px;
+}
+.header__logo{
+    display: flex;
+    flex-direction: row;
+}
+.header__img{
+    height: 70px;
+    margin-top: 9px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.header__h1{
+    display: flex;
+    padding-right: 400px;
+    align-items: flex-end;
+    font-size: 17px;
+    font-weight: 550;
+}
+.header__navbar{
+    display: none;
+    margin-top: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0em 4em;
+}
+.navbar__link{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar__link__blue{
+    text-decoration: none;
+    color: #8acfe5;
+    font-size: 17px;
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__hackerImg{
+    width: 100%;
+}
+.main__hackerImgDesktop{
+    display: none;
+}
+.buttons__blueButton{
+    margin-top: 1.6em;
+    border: solid #8acfe5;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: 10px;
+    background-color: #8acfe5;
+}
+.buttons__link{
+    margin-top: 0.6em;
+    font-size: 11px;
+    color: #36769d;
+    font-weight: bold;
+}
+.qouteContainer{
+    display: flex;
+}
+.quote{
+    display: flex;
+    margin: 10% 6% 20% 6%;
+    text-align: left;
+    font-style: italic;
+    padding-right: 1px;
+}
+.quoteTwo{
+    display: none;
+    margin: 10% 6% 20% 6%;
+    text-align: left;
+    font-style: italic;
+    padding-right: 1px;
+}
+.quote__img{
+    margin-top: 20px;
+    padding-right: 1em;
+    height: 55px;
+}
+.quote__authorText{
+    margin-bottom: 1px;
+    font-size: 16.6px;
+}
+.quote__author{
+    font-size: 12.3px;
+    font-style: normal;
+}
+.challenges__heading{
+    font-weight: 320;
+    font-size: 27px;
+    margin: 1.5em 0em 2.2em 0em;
+}
+.challenges__slider{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    /* width: 80%; */
+    margin: 0 auto;
+    margin-left: 20px;
+}
+.card__textPadding{
+    padding: 0px 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px;
+    height: 40%;
+    margin: 10px 20px;
+    min-width: 260px;
+    overflow: hidden;
+    max-width: 450px;
+}
+.card__image{
+    margin-bottom: 0%;
+    width: 100%;
+}
+.card__heading{
+    font-size: larger;
+    font-weight: 400;
+    margin: 10px 0px 5px 0px;
+}
+.card__stars{
+    display: flex;
+    font-size: x-small;
+}
+.star{
+    height: 11px;
+    margin-right: 2px;
+}
+.participants{
+    margin: 0px 8px;
+}
+.card__text{
+    font-size: 12px;
+}
+.btn_placement{
+    display: flex;
+    justify-content: end;
+}
+.book_btn{
+    border-radius: 3px;
+    border: solid #e3170a;
+    background-color: #e3170a;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 25px;
+    margin-top: 3;
+}
+.article{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(6, 23, 38);
+    padding: 2.4em 1em 4em 1em; 
+}
+.article__text{
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 1.4em;
+}
+.article__button{
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 13px 38px;
+    color: #8acfe5;
+    border: solid #8acfe5;
+    border-width: 2px;
+}
+.gridContainer{
+    text-align: start;
+    font-size: 16px;
+    padding: 0em 0em 3em 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.gridContainerTwo{
+    text-align: start;
+    font-size: 16px;
+    padding: 0em 0em 3em 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.gridInfo__imageOne, .gridInfo__imageTwo{
+    width: 100%;
+}
+.gridInfo__heading{
+    font-weight: 600;
+    margin-bottom: 0.2em;
+}
+.gridInfo__text{
+    font-size: 17px;
+    letter-spacing: 0px;
+    margin-right: 10px;
+
+}
+.gridInfo__button{
+    background-color: #e3170a;
+    color: white;
+    border: solid #e3170a;
+    border-radius: 3px;
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 0px;
+    letter-spacing: -0.5px;
+}
+.footer{
+    margin-top: 1em;
+    padding: 2em 1em 3em 1em;
+    background-color: rgb(6, 23, 38);
+    color: white;
+    text-align: left;
+}
+.footer__header{
+margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.footer__text{
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+@media (min-width: 600px){
+    .header__navbar{
+        display: flex;
+    }
+    .header__h1{
+        padding: 0;
+        font-size: 30px;
+        margin-top: 38px;
+    }
+    .main__hackerImg{
+        display: none;
+    }
+    .main__hackerImgDesktop{
+        width: 100%;
+        display: inline;
+    }
+    .article{
+        padding: 4.6em 17em;
+    }.buttons{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .firstButtons{
+        transform: translateY(-60%);
+    }
+    .buttons__link{
+        border-radius: 3px;
+        border: solid #e3170a;
+        background-color: #e3170a;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        padding: 12px 40px;
+        margin-right: 1em;
+    }
+    .secondButtons{
+        margin: 1em 0em;
+    }
+}
+@media (min-width: 800px){
+    .qouteContainer{
+        padding: 0em 4em;
+    }
+    .quote, .quoteTwo{
+        margin: 1em;
+    }
+    .quoteTwo{
+        display: flex;
+    }
+    .quote__img{
+        height: 4.5em;
+    }
+    .quote__authorText{
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+
+    .footer{
+        display: flex;
+        padding: 6.2em 5em 6em 3em;
+        /* padding-bottom: 7em; */
+        justify-content: space-around;
+    }
+    .ESC_container{
+        width: 40%;
+    }
+}
+@media (min-width: 950px){
+    .gridInfo{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin-bottom: 8em;
+    }
+    .gridContainerTwo{
+        grid-row: 2/2;
+        grid-column: 1/1;
+        padding: 3em 5em;
+    }
+    .gridContainer{
+        grid-row: 1/1;
+        grid-column: 2/2;
+        padding: 3em 5em;
+    }
+}
