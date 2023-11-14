@@ -61,7 +61,7 @@ body{
 
 
 .mobileMenu{
-    position: fixed;
+    position: none;
     top: 0;
     left: 0;
     right: 0;
@@ -71,7 +71,7 @@ body{
 }
 .mobileMenu_ul{
     padding: 0;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     margin: 0;
