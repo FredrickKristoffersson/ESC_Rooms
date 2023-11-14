@@ -102,6 +102,11 @@ body{
 .mobileMenu_ul_open{
     display: flex;
 }
+.closeBtn{
+    position: fixed;
+    top: 2em;
+    right: 2em;
+}
 
 
 
