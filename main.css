@@ -58,6 +58,47 @@ body{
     font-size: 17px;
     font-weight: 500;
 }
+
+
+.mobileMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255, 0.5);
+
+}
+.mobileMenu_ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(6, 23, 38);
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    right: 1em;
+    bottom: 1em;
+    /* text-align: center; */
+}
+.mobileMenu_ul li{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+}
+.mobileMenu_ul a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+
+
 .buttons{
     display: flex;
     flex-direction: column;
@@ -272,9 +313,9 @@ margin-bottom: 8px;
         width: 100%;
         text-align: left;
     }
-    .header__img{
-        /* margin-right: -1.6em; */
-    }
+
+    .mobileMenu{display: none;}
+    .mobileMenu_ul{display: none;}
 
     .main__hackerImg{
         display: none;
@@ -376,53 +417,4 @@ margin-bottom: 8px;
         display: none;
     }
 }
-
-
-.menuBox{
-    width: 0%;
-    height: 0%;
-    background: rgb(0, 0, 0);
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-
-    border-bottom-left-radius: 100%;
-    transition: width 0.5s, height 0.5s, border-radius 0.5s;
-}
-.menuBox_open{
-    width: 99%;
-    height: 99%;
-}
-
-.menuBox ul li{
-    list-style-type: none;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-.menuBox a{
-    display: inline;
-    text-decoration: none;
-    color: #fff;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
