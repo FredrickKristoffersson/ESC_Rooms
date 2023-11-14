@@ -81,9 +81,10 @@ body{
     left: 1em;
     right: 1em;
     bottom: 1em;
-    /* text-align: center; */
+    animation: openMobileMenu 0.3s;
 }
 .mobileMenu_ul li{
+    animation: openMobileMenu 1s;
     padding: 0;
     margin: 0;
     display: flex;
@@ -106,6 +107,16 @@ body{
     position: fixed;
     top: 2em;
     right: 2em;
+    animation: openMobileMenu 1s;
+}
+
+@keyframes openMobileMenu{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 
