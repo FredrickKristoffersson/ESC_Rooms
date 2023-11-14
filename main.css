@@ -96,6 +96,12 @@ body{
     margin-bottom: 1em;
     font-weight: bold;
 }
+.mobileMenu_open{
+    position: fixed;
+}
+.mobileMenu_ul_open{
+    display: flex;
+}
 
 
 
